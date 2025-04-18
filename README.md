@@ -39,20 +39,5 @@ cd odoo18-enterprise-deployment
 # Run setup script (customize if needed)
 chmod +x deploy.sh
 ./deploy.sh
-```
-📁 Folder Structure
-----------------------------------------
-odoo18-enterprise-deployment/
-│
-├── config/
-│   └── odoo.conf              # Odoo configuration file
-│
-├── custom-addons/             # Your custom modules
-│
-├── scripts/
-│   ├── install.sh             # Auto installation script
-│   ├── backup.sh              # Backup utility (optional)
-│
-├── logs/                      # Log files
-└── README.md
+
 
