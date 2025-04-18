@@ -79,7 +79,7 @@ timedatectl
 echo -e "=== Install and configure PostgreSQL ... ==="
 if [ $INSTALL_POSTGRESQL_SIXTEEN = "True" ]; then
     echo -e "=== Installing postgreSQL V16 due to the user it's choice ... ==="
-    sudo apt -y install postgresql-16
+    sudo apt -y install postgresql postgresql-server-dev-all
 else
     echo -e "=== Installing the default postgreSQL version based on Linux version ... ==="
     sudo apt -y install postgresql postgresql-server-dev-all
